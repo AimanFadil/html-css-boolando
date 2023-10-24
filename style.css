@@ -29,9 +29,10 @@ header{
 }
 .col-50{
     width: 50%;
-    text-align: center;
-    border: dotted white;
+    text-align: left;
+    
     height: 30px;
+    color: white;
 }
 
 .col-33{
@@ -46,9 +47,7 @@ header{
 }
 /* HEADER */
 
-.img-logo{
-    filter: invert(0%) sepia(0%) saturate(1522%) hue-rotate(221deg) brightness(88%) contrast(94%);
-}
+
 
 .discount{
     position: absolute;
@@ -82,10 +81,16 @@ header{
 
 /* MAIN */
 
+.color-white{
+    color: white;
+}
 .show{
     display: block;
 }
 
+.invert{
+    filter: invert(100%);
+}
 .hidden{
     display: none;
 }
@@ -111,5 +116,21 @@ header{
 .barra{
     text-decoration: line-through;
 }
+
+.bg-white{
+    margin: 0 ;
+    filter: invert(100%);
+}
 /* FOOTER */
 
+footer{
+    height: 100px;
+    background-color: black;
+    margin-top: 50px;
+    padding-top: 45px;
+   
+}
+
+.spacebet{
+    padding-left: 420px;
+}
