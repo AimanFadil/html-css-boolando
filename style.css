@@ -1,5 +1,47 @@
+/* UTILTY */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+header{
+    background-color: orange;
+    padding: 20px 0;
+    height: 75px;
+    
+}
+
+.row{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-15{
+    width: 15%;
+    text-align: center;
+}
+
+.col-70{
+    width: 70%;
+    text-align: center;
+}
+.col-100{
+    width: 100%;
+    text-align: center;
+}
+
+.col-33{
+    width: 33%;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto
+}
+/* HEADER */
+
+.img-logo{
+    filter: invert(0%) sepia(0%) saturate(1522%) hue-rotate(221deg) brightness(88%) contrast(94%);
 }
