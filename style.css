@@ -6,7 +6,7 @@
 }
 
 header{
-    background-color: orange;
+    background-color: rgb(255, 115, 0);
     padding: 20px 0;
     height: 75px;
     
@@ -14,7 +14,6 @@ header{
 
 .row{
     width: 100%;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -28,13 +27,20 @@ header{
     width: 70%;
     text-align: center;
 }
-.col-100{
-    width: 100%;
+.col-50{
+    width: 50%;
     text-align: center;
+    border: dotted white;
+    height: 30px;
 }
 
 .col-33{
-    width: 33%;
+    width: 31% ;
+    border: dotted black;
+    
+    height: 600px;
+    margin: 60px 10px;
+    
 }
 .container{
     max-width: 1200px;
@@ -44,4 +50,13 @@ header{
 
 .img-logo{
     filter: invert(0%) sepia(0%) saturate(1522%) hue-rotate(221deg) brightness(88%) contrast(94%);
+    
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(5, 5, 5);
+    padding: 20px 0;
+    height: 75px;
 }
